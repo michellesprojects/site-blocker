@@ -128,7 +128,7 @@ def reblock_after_timeout():
         print(f"{remaining_minutes} minute warning")
         time.sleep(60)
         elapsed += 60
-    manage_block_entries('block')()
+    manage_block_entries('block')
     close_browsers()
     print("Sites re-blocked and browsers closed.")
 
